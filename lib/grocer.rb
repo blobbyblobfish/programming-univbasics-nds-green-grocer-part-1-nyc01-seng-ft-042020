@@ -2,6 +2,10 @@ def find_item_by_name_in_collection(name, collection)
   # Implement me first!
   #
   # Consult README for inputs and outputs
+  
+  if collection[0][:item] == name 
+    return collection[0]
+  end
 
 end
 
